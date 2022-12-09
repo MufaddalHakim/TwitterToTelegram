@@ -41,7 +41,7 @@ async function streamTweets() {
   try {
     const addedRules = await streamer.v2.updateStreamRules({
       add: [
-        { value: 'from:carromero_123 -is:reply -is:retweet' }, // @elonmusk
+        { value: 'from:ElonMusk -is:reply -is:retweet' }, // @elonmusk
       ],
     });
 
